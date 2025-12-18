@@ -46,7 +46,7 @@ app.delete("/api/v1/whisper/:id", async (req, res) => {
 app.get("/about", async (req, res) => {
   // Pour l'exercice, on récupère le nombre de whispers pour l'afficher
   const whispers = await store.getAll();
-  res.render("about", { count: whispers.length });
+  res.render("about", { whisperCount: whispers.length, title: "About Whispering" });
 });
 
 export { app };

@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "message": "Hello world!",
+    "id": 1
+  }
+]
