@@ -26,3 +26,4 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: ./*
           target: /var/www/html/api/site-omar-node-ejs
+          debug: true
