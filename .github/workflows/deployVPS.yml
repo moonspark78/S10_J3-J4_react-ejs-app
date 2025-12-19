@@ -25,4 +25,4 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: ./*
-          target: /var/www/html/api/site-omar-node-ejs
+          target: /home/omar/apps/whispering/S10_J3-J4_react-ejs-app
