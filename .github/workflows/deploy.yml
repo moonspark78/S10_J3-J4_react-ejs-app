@@ -1,9 +1,10 @@
 name: Deploy to Render
 on:
   push:
-    branches:
-      - main
-jobs:
+    #branches:
+    # - main
+    
+jobs :
   deploy:
     runs-on: ubuntu-latest
     steps:
